@@ -90,3 +90,37 @@ padding-bottom: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   
 }
+.transporter{
+  text-align: center;
+
+}
+.transporter p{
+  margin-top: 5px;
+}
+.menusocial {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.footer{
+  background-color: black;
+  color: white;
+}
+.footer .wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.facebook a:hover{
+  background-color: #0a66c2;
+}
+.twitter a:hover{
+  background-color: #0a66c2;
+}
+.linkedin a:hover{
+  background-color: #0a66c2;
+}
+/*---aide stylisitqiue--*/
+.conteneurtransport-invisible{
+  display: none;
+}
