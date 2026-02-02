@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/normalize.css"/>
-
+<script src="js/Script.js" defer></script>
   
     <title>LeSIEUR</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,8 +14,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
-    <script src="js/script.js" defer></script>
     
   </head>
   <body>
@@ -48,24 +46,24 @@
       <div class="wrapper">
         <div class="titreSection">
           <h2>Transport</h2>
-         <a href="#" class="js-plus"><img src="images/iconplus.svg" alt="BTNPLUS" /></a> 
+         <a href="#" ><img src="images/iconplus.svg" class="js-plus" alt="BTNPLUS" /></a> 
         </div>
 
         <div class="conteneurtransport">
 
-          <article>
+          <article class="transporter">
             <img src="images/avion.png" alt="avion" />
             <h3>Forfait <strong>avion</strong></h3>
             <p>Voyager rapidement et confortablement</p>
           </article>
 
-          <article>
+          <article class="transporter">
             <img src="images/bateau.png" alt="bato" />
             <h3>Forfait <strong>croisière</strong></h3>
             <p>Laissez-vous emporter par les vagues</p>
           </article>
 
-          <article>
+          <article class="transporter">
             <img src="images/auto.png" alt="vroomvroom" />
             <h3>Forfait <strong>auto</strong></h3>
             <p>voitures de luxe pour plus de comfort</p>
@@ -75,12 +73,12 @@
     </section>
 <!--footer-->
 
-    <footer>
+    <footer class="footer">
       <div class="wrapper">
+                <p>
+          Voyage LeSIEUR
+        </p>
         <nav>
-          <p>
-            Voyage LeSIEUR
-          </p>
           <ul class="menusocial">
 
             <li class="facebook">
@@ -95,6 +93,8 @@
             
           </ul>
         </nav>
+
+
       </div>
     </footer>
   </body>
